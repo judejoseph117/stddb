@@ -11,26 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CategorySelection">
-
-        </activity>
+        <activity android:name=".Studenthome"></activity>
+        <activity android:name=".CategorySelection"></activity>
         <activity android:name=".StaffRegister" />
-        <activity android:name=".Stafflogin">
-
-        </activity>
+        <activity android:name=".Stafflogin"></activity>
         <activity android:name=".StudentRegister" />
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:windowSoftInputMode="stateHidden|adjustPan" >
+            android:windowSoftInputMode="stateHidden|adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".Main2Activity"
@@ -43,9 +39,7 @@
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden|adjustPan">
-
-        </activity>
+            android:windowSoftInputMode="stateHidden|adjustPan"></activity>
     </application>
 
 </manifest>
