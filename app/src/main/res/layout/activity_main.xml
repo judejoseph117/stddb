@@ -64,24 +64,24 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:fontFamily="@font/gotham"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp"
-        android:shadowColor="#57000000"
-        android:shadowDx="3"
-        android:shadowDy="3"
-        android:shadowRadius="2"
-        android:text="@string/login"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="16sp" />
+    <!--<TextView-->
+        <!--android:id="@+id/login"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="40dp"-->
+        <!--android:fontFamily="@font/gotham"-->
+        <!--android:paddingBottom="8dp"-->
+        <!--android:paddingTop="8dp"-->
+        <!--android:shadowColor="#57000000"-->
+        <!--android:shadowDx="3"-->
+        <!--android:shadowDy="3"-->
+        <!--android:shadowRadius="2"-->
+        <!--android:text="@string/login"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="16sp" />-->
 
 
 </RelativeLayout>
